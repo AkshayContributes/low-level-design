@@ -1,11 +1,9 @@
-package com.example.controller;
+package com.strategy.controller;
 
-import com.example.services.Compute;
-import com.example.services.ComputeRouter;
-import com.example.services.FlightRouter;
+import com.strategy.services.calculator.ComputeRouter;
+import com.strategy.services.flight.FlightRouter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

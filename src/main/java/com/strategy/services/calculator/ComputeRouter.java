@@ -1,4 +1,4 @@
-package com.example.services;
+package com.strategy.services.calculator;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
